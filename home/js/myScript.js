@@ -1,11 +1,11 @@
 function myFunction() {
-  document.getElementById("demo").innerHTML = "Paragraph changed.";
+  document.getElementById("demo").innerHTML = "hi my name is Mark Angelo Alcantara.";
 }
 
 function myFunction2() {
   const element = document.getElementsByTagName("p");
 
-  document.getElementById("demo").innerHTML = '<br> The text in first paragraph (index 0) is: <br>' + element[0].innerHTML;
+  document.getElementById("demo").innerHTML = '<br> I am from BSIT department <br>' + element[0].innerHTML;
   
 
 }
