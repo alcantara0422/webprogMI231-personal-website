@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Personal Profile Webpage</title>
+</head>
+<body>
+  <div class="top-bar">
+    <h1>Personal Profile Webpage</h1>
+  </div>
+  <div class="container">
+    <header>
+    </header>
+    <main>
+      <section class="main-content">
+        <div class="tile" onclick="openDialog('aboutMe')">
+          <h2>About Me</h2>
+        </div>
+        <div class="tile" onclick="openDialog('education')">
+          <h2>Education</h2>
+        </div>
+        <div class="tile" onclick="openDialog('course')">
+          <h2>Course</h2>
+        </div>
+        <div class="tile" onclick="openDialog('experience')">
+          <h2>IT Experience</h2>
+        </div>
+        <div class="tile" onclick="openDialog('hobbies')">
+          <h2>Hobbies</h2>
+        </div>
+        <div class="tile" onclick="openDialog('goals')">
+          <h2>Goals</h2>
+        </div>
+        <div class="tile" onclick="openDialog('photo')">
+          <h2>Photos</h2>
+        </div>
+      </section>
+      <aside class="sidebar"></aside>
+    </main>
+  </div>
+  <div class="bottom-bar">
+    <p>Asia Pacific College 2024</p>
+  </div>
+
+  <div id="dialogOverlay" class="dialog-overlay" onclick="closeDialog()"></div>
+  <div id="dialogBox" class="dialog-box">
+    <span class="close-btn" onclick="closeDialog()">&times;</span>
+    <div class="dialog-content" id="dialogContent">
+      <!-- Content will be injected here -->
+    </div>
+  </div>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
